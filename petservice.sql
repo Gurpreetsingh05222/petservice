@@ -41,12 +41,6 @@ CREATE TABLE `users` (
   `u_image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `u_name`, `email`, `phone`, `u_address`, `city`, `country`, `u_service`, `content`, `u_image`) VALUES
-(4, 'Gurpreet singh', 'gurpreetcyng0373@gmail.com', 2147483647, 'asdasdasd', 'as', 'INDIA', 'Dog Hostel', 'Hi i am a dog walker And my prices are $20.', 'portfolio1.jpg');
 
 --
 -- Indexes for dumped tables
