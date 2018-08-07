@@ -3,8 +3,8 @@
 
 body{
     text-align: center;
-    background-color: #1B9CFC;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
 }
 
@@ -38,15 +38,6 @@ h1{
     font-size: 150%;
 }
 
-#about{
-    width: 600px;
-    margin: auto;
-}
-
-#prices{
-    width: 600px;
-    margin: auto;
-}
 
 footer{
     height: 40px;

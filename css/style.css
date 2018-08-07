@@ -6,6 +6,10 @@ body{
     margin: auto;
 }
 
+#form label{
+    font-weight: bolder;
+}
+
 footer{
     height: 40px;
     background-color: #007Bff;
