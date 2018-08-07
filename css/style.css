@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+#form{
+    width: 400px;
+    margin: auto;
+}
+
+footer{
+    height: 40px;
+    background-color: #007Bff;
+    color: white;
+    padding-top: 10px;
+}
