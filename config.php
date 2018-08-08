@@ -9,5 +9,4 @@
    if(!$connection){
    	die ("QUERY FAILED" . mysqli_connect_error($connection));
    }
-
-   ?>
+?>
