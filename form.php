@@ -37,28 +37,34 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="css/style.css">
         <title>Pet Service</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-                    <a class="navbar-brand" href="index.php#.navbar">Pet Service</a>
-                    
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                        <a class="nav-link" href="index.php#.navbar">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="index.php#work">How it works</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="displayform.php">Find a Sitter</a>
-                        </li>
-                    </ul>
-            </nav>
-        <h1>Please fill out the form</h1>
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.php">Pet Service</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.php">Home</a></li>
+                  <li><a href="form.php">Become a Sitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h1 id="head" >Please fill out the form</h1>
         <div id="form">
             <form method="POST" enctype="multipart/form-data">
             <div class="form-group">
@@ -73,7 +79,7 @@
 
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="tel" class="form-control" name="phone" placeholder="Phone number" required><span style="color:red;"><?php echo $phoneErr; ?></span>
+                <input type="number" class="form-control" name="phone" placeholder="Phone number" required><span style="color:red;"><?php echo $phoneErr; ?></span>
             </div>
 
             <div class="form-group">
@@ -107,6 +113,6 @@
             <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button><br><br>
             </form>
         </div>
-        <footer>Pet Service &copy; 2018</footer>
+        <footer id="footer">Pet Service &copy; 2018</footer>
     </body>
 </html>

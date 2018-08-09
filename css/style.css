@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+nav ul li{
+    color: white;
+}
+
 body{
     text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#head{
+    margin-top: 50px;
 }
 
 #form{
@@ -11,9 +22,9 @@ body{
     font-weight: bolder;
 }
 
-footer{
+#footer{
     height: 40px;
-    background-color: #007Bff;
-    color: white;
+    background-color: #F8F8F8;
+    color: black;
     padding-top: 10px;
 }
