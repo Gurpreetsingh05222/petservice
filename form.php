@@ -27,7 +27,7 @@
         else{
         $sql = "INSERT INTO users(u_name, email, phone, u_address, city, country, u_service, content, u_image) VALUES('$name', '$email' , '$phone', '$address', '$city', '$country', '$service' ,'$content', '$u_image')";
             $status = mysqli_query($connection, $sql);
-            header("Location: displayform.php");
+            header("Location: index.php");
         }
     }
 ?>
