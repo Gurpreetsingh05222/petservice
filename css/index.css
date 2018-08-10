@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-
 nav ul li{
     color: white;
 }
@@ -22,18 +21,20 @@ body{
 }
 
 .displayItem{
-    margin: 0px ;
     float: left;
     width: 33.33%;
-    padding: 0px 5px 0px 5px;
+    padding: 10px; 
+}
+
+.displayItem p{
+    font-size: 15px;
 }
 
 .img{
     float: left;
     height: 200px;
-    width: 100%;
+    width: 100%; 
 }
-
 
 #work{
     clear: both;
@@ -44,9 +45,28 @@ body{
     margin-bottom:20px;
 }
 
-footer{
-    height: 40px;
-    background-color: #F8F8F8;
-    color: Black;
-    padding-top: 10px;
+#footer{
+    clear: both;
+}
+
+@media screen and (max-width:800px){
+    .display{
+        width: 100%;
+    }
+    
+    .displayItem{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .display {
+        width: 100%;
+    }
+    
+    .displayItem{
+        float: left;
+        width: 100%;
+    }
 }
