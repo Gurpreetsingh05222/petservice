@@ -53,9 +53,9 @@
                   <p>Country: <?php echo $row['country']; ?></p>
                   <p>Price: $<?php echo $row['charge']; ?></p>
             </div>
-              <?php
-                      }
-                ?>
+            <?php
+                    }
+            ?>
             </div>
             <div id="footer">
               <p style="font-size:200%;">Want to be a Pet walker. Please click button below and fill out the form.</p>
